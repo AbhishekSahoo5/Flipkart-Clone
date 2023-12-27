@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: rgb(230, 237, 241);
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:65px;
+    width:100%;
+    background-color: white;
+    position:sticky;
+    top:0px;
+}
+
+.flipkart_logo_image{
+    height:70px;
+}
+
+/* secrch bar */
+.search_bar{
+    display:flex;
+    width:40%;
+    border-radius:10px;
+    background-color: rgb(234, 240, 238);
+}
+.search_icon{
+    height:40px;
+    width:30px;
+    display:flex;
+    align-items: center;
+    padding-left:9px;
+    border-radius:4px 0 0 4px;
+    color:rgb(137, 140, 143);
+}
+.search_input{
+    height:40px;
+    width:100%;
+    border:none;
+    outline: none;
+    padding-left:8px;
+    background-color: rgb(234, 240, 238);
+    border-radius: 0 10px 10px 0;
+}
+
+/* login button */
+.login_button{
+    display:flex;
+}
+.login_button a{
+    text-decoration: none;
+    color:black
+}
+.login_text{
+    padding-left:10px;
+    padding-right:3px;
+}
+.logo_down{
+    color:rgb(88, 88, 87)
+}
+
+/* Cart */
+.cart_button{
+    display:flex;
+}
+.cart_button a{
+    text-decoration: none;
+    color:black;
+}
+.cart_text{
+    padding-left:10px;
+}
+
+/* Become a seller */
+.become_a_seller{
+    display:flex;
+}
+.become_a_seller a{
+    text-decoration: none;
+    color:black;
+}
+.seller_text{
+    padding-left:10px;
+}
+
+/* Navigation Bar */
+.navigation_bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    height:150px;
+    margin:20px;
+    background-color: white;
+    padding:0 100px;
+    
+}
+.nav_items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.nav_items:hover{
+    border-bottom: 5px solid rgb(3, 66, 240);
+}
+.nav_items a{
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+}
+.text{
+    display:flex;
+}
+.nav_text{
+    padding-right:5px;
+}
+
+/* hero section */
+.hero_section{
+    margin:20px;
+}
+.hero_image{
+    width:100%;
+}
+
+/* Electronics section */
+.electronics_section{
+    margin:20px;
+    background-color: white;
+    /* height:300px;
+    width:1500px; */
+}
+.electronics_section h3{
+    padding:20px 0px 20px 30px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.electro_items{
+    display:flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content:space-evenly;
+    padding:0px 20px 0px 20px;
+    width:100%;
+    height:320px;
+}
+.items img{
+    height:150px;
+    width:90%;
+    margin:10px;
+}
+.items{
+    border:2px solid rgb(237, 232, 232);
+    height:300px;
+    width:20%;
+    margin:2px 2px 20px 5px;
+    border-radius: 5px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;   
+}
+
+.items a{
+    text-decoration: none;
+    color:black;
+}
+.items .product_name{
+    font-size: larger;
+    margin-top:20px;
+}
+.items .product_price{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.items:hover{
+    border:2px solid black;
+}
+
+/* Offers zone */
+.offers_columns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height:300px; */
+    margin:0 10px 0 10px;
+}
+.offer{
+    /* margin:5px; */
+    width:31%;
+    background-color: white;
+    padding-top:30px;
+    padding-left:5px;
+    display:flex;
+    flex-direction: column;
+}
+.row{
+    width:100%;
+    height:50%;
+    /* margin-left:2px;
+    margin-right:2px; */
+    display:flex;
+}
+.col{
+    width:50%;
+    margin:10px;
+    background-color: white;
+    border:3px solid rgb(234, 228, 228);
+    border-radius: 5px;
+
+}
+.shoes_image{
+    width:100%;
+    height:70%;
+}
+.col a{
+    margin-top:20px;
+    padding:10px 0px 10px 0px;;
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    font-size: large;
+}
+.discount_section a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:green;
+    font-weight:900;
+    font-size: small;
+    box-sizing: content-box;
+}
+.col:hover{
+    border:3px solid black;
+}
+.col a img{
+    padding:5px;
+}
+
+
+.mens_fashion .product_price{
+    margin-top:20px;
+}
+
+footer{
+    background-color: rgb(3, 3, 3);
+    height:500px;   
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:70px;
+}
+
+.footBar{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    color:gray;
+    font-size:x-large;
+    font-weight: bold;
+    margin-bottom: 10px;;
+}
+.footBar a{
+    text-decoration: none;
+    color:white;
+}
+.footBar a:hover{
+    border-left:3px soild white;
+}
